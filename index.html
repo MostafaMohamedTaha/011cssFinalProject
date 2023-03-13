@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <header class="header">
+        <h1 class="header__h1">Welcome To The Little Taco Shop</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="pages/hours.html">Hours</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
+                <li><a href="pages/about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2 class="hero__h2">Bienvenidos!</h2>
+    </section>
+    <figure>
+        <img src="img/05.jpg" alt="taco first pic" title="We Love Taco">
+        <figcaption class="offscreen">First Taco Type</figcaption>
+    </figure>
+    <main>
+        </article>
+        <article id="menu" class="main__article menu">
+            <h2 class="menu__h2">our menu</h2>
+            <table class="menu__container">
+                <caption class="offscreen">our tacos</caption>
+                <thead>
+                    <tr>
+                        <th scope="col" class="menu__header">Tacos</th>
+                        <th scope="col" class="menu__header">Quantity</th>
+                        <th scope="col" class="menu__header">price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="menu__item menu_cr" scope="row" rowspan="3">Crunchy</th>
+                        <td class="menu__item">1</td>
+                        <td class="menu__item">$1.5</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">2</td>
+                        <td class="menu__item">$2.5</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">3</td>
+                        <td class="menu__item">$3.5</td>
+                    </tr>
+                    <tr>
+                        <th class="menu__item menu_sf" scope="row" rowspan="3">Soft</th>
+                        <td class="menu__item">1</td>
+                        <td class="menu__item">$2.5</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">2</td>
+                        <td class="menu__item">$3.5</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">3</td>
+                        <td class="menu__item">$4.5</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td class="menu__item menu_cs" colspan="3">
+                            Chips &amp; Salsa 2$
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <p class="center">
+                <a href="#">back to top</a>
+            </p>
+        </article>
+    </main>
+    <hr>
+    <footer class="footer">
+        <p>
+            <span class="nowrap">
+                copyright &copy;
+                <time id="year"></time>
+            </span>
+            <span class="nowrap">
+                the little taco shop
+            </span>
+        </p>
+    </footer>
+    <script src="js/main.js" async defer></script>
+</body>
+
+</html>
